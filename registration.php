@@ -110,7 +110,7 @@
         <input type="password" name="password" placeholder="Password" require><br>
         <input type="submit" name="Submit" value="Register" >
         </form>
-        <p> มีบัญชี? <a href="login.php">Log in</a></p>
+        <p> มีบัญชีแล้ว? <a href="login.php">Log in</a></p>
         <p id="privacy">By continuning, I accept the Workshop Daily <a href="#">terms of service</a>, have read <a href="#">privacy policy.</a></p>
         </div>
 
