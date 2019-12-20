@@ -65,23 +65,28 @@
 
             if($row == 1) {
                  $_SESSION['email'] = $email;
+                //  $email;
+                //  while ($rowData = $data) {
+                //   $email = $rowData['email'];
+                //  }
+                //  echo $email;
             //Redirect user to index.php
-            header("Location: index.html");
+            // header("Location: index.html");
             } else {
                 echo "<div class='form'>  
                     <h3>Email Address/Password is incorrect.</h3>
                     <br>Click here to <a href='login.php'>Login</a>
-                    </div>";                       
+                    </div>";                           
             }
             } else {
     ?>
 
     
        
-		<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff; box-shadow=2px 4px 12px rgba(167, 167, 167, 0.25);" >
+		<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff; box-shadow= 2px 4px 32px rgba(207, 207, 207, 0.25;" >
 			<div class="container">
 				 <a class="navbar-brand" href="index.html">
-        		<img src="img/logo.svg" href="index.html" width="130" height="35" alt="">
+        		<img src="img/logo.svg" href="index.php" width="130" height="35" alt="">
      </a>
 				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				    <span class="navbar-toggler-icon"></span>

@@ -68,9 +68,9 @@
         
         ?>
 
-            <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #fff;">
+            <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #fff; box-shadow: 2px 4px 32px rgba(207, 207, 207, 0.25; ">
 			<div class="container">
-				 <a class="navbar-brand" href="#">
+				 <a class="navbar-brand" href="index.php">
         		<img src="img/logo.svg" href="index.html" width="130" height="35" alt="">
                 
                 </a>

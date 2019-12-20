@@ -19,7 +19,7 @@ a {
 
 p {
     color: #3F3F3F;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 a:hover {
@@ -46,7 +46,6 @@ input[type="password"] {
     margin-top: 15px;
 }
 
-
 input[type="submit"] {
     width: 241px;
     height: 38px;
@@ -67,4 +66,3 @@ input[type="submit"] {
     color: #6D6D6D;
     margin-top: 40px;
 }
-

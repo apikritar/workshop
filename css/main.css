@@ -61,7 +61,7 @@ ul, li {
 input {
   display: block;
 	outline: none;
-	border: none !important;
+ 	border: 2px !important;
 }
 
 textarea {
@@ -457,3 +457,21 @@ th, td {
 .workshop-card {
   margin-top: 15px;
 }
+
+#category .card{
+  border-radius: 10px;
+}
+
+.card {
+  border: hidden !important;
+}
+
+.search-workshop {
+   			
+  border-radius: 15px;
+  transition: 0.5s;
+  border: 1px solid !important;
+  border-color: #DBDBDB;
+  padding-left: 2.375rem;
+  background-color: #F4F4F4;
+  }

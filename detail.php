@@ -11,30 +11,37 @@
 </head>
 <body  style="background-color: #FAF7F1;">
 	
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<div class="container">
-				  <a class="navbar-brand" href="#">Navbar</a>
-				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				    <span class="navbar-toggler-icon"></span>
-				  </button>
+	<nav class="navbar navbar-expand-lg navbar-light " style="background-color: #fff; box-shadow: 2px 4px 32px rgba(207, 207, 207, 0.25; ">
+		<div class="container">
+			 <a class="navbar-brand" href="index.php">
+			<img src="img/logo.svg" href="index.php" width="130" height="35" alt="">
+			
+			</a>
+			  <button class="navbar-toggler" type="button">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
 
-				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				 <div class="form-inline my-2 my-lg-0">	
+					<!-- <span class="fa fa-search form-control-feedback"></span> -->
+					<input class="form-control mr-sm-2" type="search"  placeholder="Search Workshops" aria-label="Search">
+				</div>
+		
 
-				    <form class="form-inline my-2 my-lg-0">
-				      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-				    </form>
-
-				    <ul class="navbar-nav mr-auto justify-content-end" style="width: 100%">
-				      <li class="nav-item active">
-				        <a class="nav-link" href="index.html">Home</a>
-				      </li>
-				      <li class="nav-item">
-				        <a class="nav-link" href="regis.html">regis <span class="sr-only">(current)</span></a>
-				      </li>
-				    </ul>
-				  </div> 
-		  	</div>
-		</nav>
+				<ul class="navbar-nav mr-auto justify-content-end" style="width: 100%">
+				  <li class="nav-item">
+						<a class="nav-link" id="publish" href="publish.html">+ ลงประกาศเวิร์กช็อป <span class="sr-only">(current)</span></a>
+				  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="home.html">เกี่ยวกับ</a>
+					  </li>&nbsp &nbsp
+					<li class="nav-item">
+						<a class="nav-link" href="login.php">ลงชื่อเข้าใช้</a>
+				  </li>
+				</ul>
+			  </div> 
+		  </div>
+	</nav>
 
 		<div class="container">
 			<ul class="nav justify-content-center">
