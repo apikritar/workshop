@@ -197,7 +197,7 @@
 					   <input type="text" name="intro" placeholder="" style="height: 60px;" require><br>
 					   <h6 style="margin-top: 20px;">หมวดหมู่</h6>
 					<div>
-            			<select multiple data class="selectpicker w-auto" name="category"><br>
+            			<select multiple data class="selectpicker w-auto" name="Category"><br>
                 			<option>ธุรกิจ</option>
                 			<option>เทคโนโลยี</option>
 							<option>อาหาร</option>
@@ -206,7 +206,7 @@
 
 					<h6 style="margin-top: 20px;">แท็ก</h6>  
 						<div class="input-group">
-  						<input type="text" placeholder="ใส่แท็กของคุณ" aria-label="Tag" aria-describedby="button-addon2" style="margin-right:15px;">
+  						<input type="text" name="tag "placeholder="ใส่แท็กของคุณ" aria-label="Tag" aria-describedby="button-addon2" style="margin-right:15px;" require>
    						<button class="btn btn-outline-secondary" type="submit" id="tag-button" >เพิ่ม</button>
 					 </div><br><hr><br>
 
@@ -214,7 +214,7 @@
 					 	<h4> อัพโหลดรูปภาพหัวข่าว</h4>
 					 	<h5 style="margin-top: 10px;">สำหรับใส่ในส่วนหัวข่าว</h5>
 					 	<h6 style="margin-top: 5px;">ขนาด 900x500 พิกเซล (ไม่เกิน 2 MB)</h6>
-					 	<input type="file" id="real-file1" hidden="hidden" />
+					 	<input type="file" name="title_img" id="real-file1" hidden="hidden" require/>
 						<button type="button" id="custom-button1" style="margin-top:10px"><h5>เลือกไฟล์</h5></button>
 						<span id="custom-text1">No file chosen.</span>
 					 </div>
@@ -223,7 +223,7 @@
 					 	<h4 style="margin-top: 30px;">อัพโหลดภาพโปสเตอร์</h4>
 					 	<h5 style="margin-top: 10px;">ภาพนี้จะอยู่ในหน้ารายละเอียดเวิร์กช็อปบนเว็บไซต์</h5>
 					 	<h6 style="margin-top: 5px;">ขนาดไม่เกิน 2 MB</h6>
-					 	<input type="file" id="real-file" hidden="hidden" />
+					 	<input type="file" name="detail_img" id="real-file" hidden="hidden" require/>
 						<button type="button" id="custom-button" style="margin-top:10px"><h5>เลือกไฟล์</h5></button>
 						<span id="custom-text">No file chosen.</span>
 					 </div><br><hr><br>
@@ -277,7 +277,7 @@
 					<div class="row">
 						<div class="col-3">
 						<h6 style="color: #B64C00;">หมดเขรับสมัคร</h6>
-						<input class="form-control" type="date" name="regisEnd" />
+						<input class="form-control" type="date" name="registExpire" />
 						</div>
 					</div>					
 					</div><br><hr><br>
